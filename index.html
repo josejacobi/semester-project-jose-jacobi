@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Web site for the Community Science Museum">
+
+    <title>Community Science Museum</title>
+
+    <link rel="stylesheet" href="css/global_styles.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Glory:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <a class="heading">
+        <img src="images/museum-logo.png" alt="multicolor-background">
+        <h1>Community Science Museum</h1>
+      </a>
+
+      <input type="checkbox" name="menu-checkbox" id="menu-checkbox">
+      <label for="menu-checkbox"><img src="icons/burger-menu-16x16.png" alt="burger menu icon"> </label>
+      <nav>
+        <ul>
+          <li><a href="explore_page.html">Explore</a></li>
+          <li><a href="exhibitions_page.html">Exhibitions</a></li>
+          <li><a href="events_page.html">Events</a></li>
+          <li><a href="visit_page.html">Visits</a></li>
+          <li><a href="getinvolved_page.html">Get Involved</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!-- main page content -->
+     
+      <div class="main_panel">
+        <div class="section_home_page">
+          <h2>Explore Our Museum</h2>
+        </div>
+        <div id="museum_image">
+          <img src="images/scott-webb-102825.jpg" alt="image of the museum">
+          <a id="ExploreButton" class="transparent-link-to" href="explore_page.html">
+              <img src="icons/right-arrow.png"    alt="right arrow icon">
+              Explore the Museum
+          </a>
+        </div>
+      </div>
+
+      <div class="main_panel">
+        <div class="section_home_page">
+          <h2>Exhibitions Spaces</h2>
+        </div>
+        <div id="grid">
+          <a class="card card-1" href="exhibitions_page.html#evolution">
+              <img class="circle-crop" src="images/mammoth-1257288_1920.jpg" alt="mammoth image">
+              Evolution
+          </a>
+          <a class="card card-2" href="exhibitions_page.html#cosmology">
+              <img class="circle-crop" src="images/Cosmology-Icon.png" alt="cosmology icon">
+              Cosmology
+          </a>
+          <a class="card card-3" href="exhibitions_page.html#biology">
+              <img class="circle-crop" src="images/Biology_icon.png" alt="Biology icon">
+              Biology and Medicine
+          </a>
+          <a class="card card-4" href="exhibitions_page.html#robotics">
+              <img class="circle-crop" src="images/robot-icon.png" alt="robot icon">
+              Robotics and AI
+          </a>
+          <a class="card card-5" href="exhibitions_page.html#ecology">
+              <img class="circle-crop" src="images/Ecology_icon.png" alt="Earth icon">
+              Ecology
+          </a>
+        </div>
+        <a class="link-to" href="exhibitions_page.html" >
+            <img src="icons/right-arrow.png"    alt="right arrow icon">
+            See all exhibitions
+        </a>
+
+      </div>
+
+      <div class="main_panel">
+        <div class="section_home_page">
+          <h2>Special Events and Exhibitions</h2>
+        </div>
+        <div class="exhibition-cards">
+          <a class="exhibition-card exhibition-card-1" href="events_page.html#Visiting">
+            <img src="images/wright-brothers-flyer.jpg" alt="Wright Brothers Flier">
+            <p><span class="name-of-the-event">Visiting Professor of Aeronautics</span><br><span class="date">Dec. 28, 2025 12:30 PM - 12:50 PM</span><br><span class="place">Community Science Museum</span></p>
+          </a>
+          <a class="exhibition-card exhibition-card-2" href="events_page.html#Night">
+            <img src="images/roberto-nickson-396152.jpg" alt="museum at night image">
+            <p><span class="name-of-the-event">Night in the Museum</span><br><span class="date">Dec. 28, 2025 12:30 PM - 12:50 PM</span><br><span class="place">Community Science Museum</span></p>
+          </a>
+          <a class="exhibition-card exhibition-card-3" href="events_page.html#Energetica">
+            <img src="images/scientific-2040795_1280.jpg" alt="energy reactor image">
+            <p><span class="name-of-the-event">Energetica Exhibition</span><br><span class="date">Dec. 28, 2025 12:30 PM - 12:50 PM</span><br><span class="place">Community Science Museum</span></p>
+          </a>
+        </div>
+        <a class="link-to" href="events_page.html" >
+            <img src="icons/right-arrow.png"    alt="right arrow icon">
+            See all events
+        </a>
+      </div>
+
+      <div class="main_panel">
+        <div class="section_home_page">
+          <h2>Opening Hours and Prices</h2>
+        </div>
+        <div class="OpeningHours">
+          <table>
+            <tr>
+              <th colspan="2">Opening Hours</th>
+            </tr>
+            <tr>
+              <td>Monday</td>
+              <td>Closed</td>
+            </tr>
+            <tr>
+              <td>Tuesday</td>
+              <td>10:00-16:00</td>
+            </tr>
+            <tr>
+              <td>Wednesday</td>
+              <td>10:00-16:00</td>
+            </tr>
+            <tr>
+              <td>Thursday</td>
+              <td>10:00-16:00</td>
+            </tr>
+            <tr>
+              <td>Friday</td>
+              <td>10:00-19:00</td>
+            </tr>
+            <tr>
+              <td>Saturday</td>
+              <td>09:00-16:00</td>
+            </tr>
+            <tr>
+              <td>Sunday</td>
+              <td>09:00-16:00</td>
+            </tr>
+          </table>
+          <table>
+            <tr>
+              <th colspan="2">Ticket Prices</th>
+            </tr>
+            <tr>
+              <td>Admission</td>
+              <td>Free</td>
+            </tr>
+            <tr>
+              <td>Guided Tours</td>
+              <td>70 NOK</td>
+            </tr>
+          </table>
+        </div>
+        <a class="link-to" href="visit_page.html" >
+            <img src="icons/right-arrow.png"    alt="right arrow icon">
+            Visit the Museum
+        </a>
+      </div>
+
+      <div class="main_panel">
+        <div class="section_home_page">
+          <h2>Get involved with the museum</h2>
+        </div>
+        <div class="GetInvolved">
+          <img   src="images/exhibition-1863344_1920.jpg" alt="image of the museum">
+          <a id="GetInvolvedButton" class="transparent-link-to" href="getinvolved_page.html">
+              <img src="icons/right-arrow.png"    alt="right arrow icon">
+              Get involved
+          </a>
+        </div>
+      </div>
+
+
+
+
+
+    </main>
+    <footer>
+        <div id="social_networks">
+          <div>
+            Follow Community Science Museum
+          </div>
+          <div>
+              <img src="icons/facebook.svg"     alt="facebook icon">
+              <img src="icons/tripadvisor.svg"  alt="tripadvisor icon">
+              <img src="icons/instagram.svg"    alt="instagram icon">
+              <img src="icons/youtube.svg"      alt="youtube icon">
+              <img src="icons/linkedin.svg"     alt="linkedin icon">
+          </div>
+        </div>
+        <button type="button" class="transparent-link-to" onclick="alert('Coming soon...')">
+            <img src="icons/right-arrow.png"    alt="right arrow icon">
+            Sign up for our news letter
+        </button>
+    </footer>
+  </body>
+</html>

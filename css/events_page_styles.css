@@ -1,0 +1,122 @@
+
+main p{
+    margin-top: 2.5rem;
+    font-size: min(2.5rem,4vw);
+    font-weight: normal;
+    font-family:var(--primary-font);
+    margin-left: 0;
+    margin-right:0;
+    color:var(--text-color);
+}
+
+main .section,
+main .blueheading{
+    clear: both;
+}
+
+
+.aviationhistory{
+  display: flex;
+  flex-wrap: wrap; 
+  margin-top: 40px;
+  margin-bottom: 40px;
+  justify-content:center;
+}
+
+.aviationhistory img{
+    flex-basis: 50%;
+}
+
+@media screen and (max-width: 500px) {
+
+    .aviationhistory img{
+        width: 100%;
+        height: auto;
+    }
+}
+.place,.date{
+    font-weight: 500;
+}
+
+#energyreactor{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: block;
+    width:100%;
+    height: auto;
+}
+
+.container{
+    display:flex;
+    flex-wrap: nowrap;
+    gap: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#nightinthemuseum{
+    width: clamp(325px,100%,490px);
+    object-fit: contain;
+}
+
+@media screen and (max-width: 1040px) {
+    .container{
+        flex-wrap: wrap-reverse;
+        gap:0;
+        justify-content:center;
+    }
+
+}
+ 
+@media screen and (max-width: 1035px) {
+    #nightinthemuseum{
+            margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #nightinthemuseum{
+            width: 100%;
+            height: auto;
+    }
+}
+
+#nightinthemuseum_legend{
+    display:flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+#nightinthemuseum_legend > p:nth-child(1){
+    margin-top: 0;
+}
+#nightinthemuseum_legend > p:nth-child(2){
+    margin-bottom: 0;
+}
+@media screen and (max-width: 1040px) {
+
+    #nightinthemuseum_legend > p:nth-child(1){
+        margin-bottom: 0;
+    }
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited {
+  color: black;
+}
+
+h2,h3{
+    font-size: inherit;
+}
+
+@media screen and (max-width: 515px) {
+
+    h2,h3,main > .panel p:first-of-type{
+        font-size: min(2rem,9vw);
+    }
+    .blueheading img{
+        display:none;
+    }
+}

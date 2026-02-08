@@ -1,0 +1,42 @@
+main > .panel > img{
+    float: right;
+    margin-top: 2.5rem;
+    margin-left: 100px;
+    width: clamp(325px,100%,490px);
+    max-height: auto;
+    object-fit: contain;
+}
+main > .panel p{
+    margin-top: 2.5rem;
+    font-size: min(2.5rem,4vw);
+    font-weight: normal;
+    font-family:var(--primary-font);
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited {
+  color: black;
+}
+
+@media screen and (max-width: 900px) {
+
+    main > .panel > img{
+        margin-left: 30px; 
+    }
+}
+
+@media screen and (max-width: 515px) {
+
+    h2,h3,main > .panel p{
+        font-size: min(2rem,9vw);
+    }
+    main > .panel > img{
+        width: 100%;
+        margin-left: auto; 
+        margin-right: auto; 
+    }
+}
