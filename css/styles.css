@@ -119,14 +119,7 @@
     background-color: white;
     text-decoration: none;
 }
-a{
-    text-decoration: none;
-}
 
-a:visited {
-  color: black;
-  text-decoration-color: black;
-}
 .name-of-the-event,.place,.date{
     font-family: var(--primary-font); 
     color: black;
